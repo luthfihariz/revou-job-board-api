@@ -1,0 +1,14 @@
+{
+  "functions": [
+    {
+      "source": "src",
+      "codebase": "revou-job-board-api",
+      "ignore": [
+        "venv",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
+}

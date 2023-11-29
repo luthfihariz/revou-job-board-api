@@ -1,3 +1,18 @@
+## Converting Pipfile to Pip
+
+- Create requirements.txt
+    ```pipenv requirements > requirements.txt```
+- Create env folder
+    ```python -m venv venv```
+- Activate environment
+    Mac ```source venv/bin/activate``` or Windows ```env\Scripts\activate```
+- Install dependencies using pip
+    ```pip install -r requirements.txt```
+- Remove Pipfile and Pipfile.lock
+
+## Firebase Function Local Testing
+```firebase emulators:start --only function```
+
 ## Assignment Database Design
 
 User
