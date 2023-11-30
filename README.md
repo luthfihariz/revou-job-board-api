@@ -9,6 +9,7 @@
 - Install dependencies using pip
     ```pip install -r requirements.txt```
 - Remove Pipfile and Pipfile.lock
+- Everytime we add new dependencies to the pip by `pip install blabla` make sure to `pip freeze > requirements.txt` to update the dep list before deploying
 
 ## Firebase Function Local Testing
 ```firebase emulators:start --only function```
